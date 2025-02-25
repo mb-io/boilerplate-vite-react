@@ -31,6 +31,7 @@ describe('Logo Component', () => {
   })
 
   it('renders correctly with custom className', () => {
+    // eslint-disable-next-line tailwindcss/no-custom-classname
     const { container } = render(<Logo className="custom-class" />)
     expect(container).toMatchSnapshot()
   })
