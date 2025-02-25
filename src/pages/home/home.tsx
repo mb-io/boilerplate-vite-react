@@ -17,7 +17,7 @@ function HomePage() {
     if (!data && !isFetching) {
       refetch()
     }
-  }, [data, isFetching])
+  }, [data, isFetching, refetch])
 
   return (
     <div className="relative overflow-hidden bg-white dark:bg-black">
