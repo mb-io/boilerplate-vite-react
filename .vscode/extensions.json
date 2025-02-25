@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint",
+    "editorconfig.editorconfig",
+    "stivo.tailwind-fold",
+    "vitest.explorer",
+    "SonarSource.sonarlint-vscode"
+  ]
+}

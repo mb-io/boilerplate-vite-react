@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HttpNoResponseException > should create an exception with custom message 1`] = `[NoResponseException: Custom no response message]`;
+
+exports[`HttpNoResponseException > should create an exception with custom message and AxiosError 1`] = `[NoResponseException: Custom no response message]`;
+
+exports[`HttpNoResponseException > should create an exception with default message 1`] = `[NoResponseException: Server failed to respond]`;

@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HttpException > should create an exception with status and message 1`] = `[Error: Bad Request]`;
+
+exports[`HttpException > should create an exception with status, message, and AxiosError 1`] = `[Error: Internal Server Error]`;

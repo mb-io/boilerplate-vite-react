@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`axiosServiceErrorHandler > should throw Exception for other errors 1`] = `[Function]`;
+
+exports[`axiosServiceErrorHandler > should throw Http403Exception for 403 status 1`] = `[Function]`;
+
+exports[`axiosServiceErrorHandler > should throw Http404Exception for 404 status 1`] = `[Function]`;
+
+exports[`axiosServiceErrorHandler > should throw Http500Exception for 500 status 1`] = `[Function]`;
+
+exports[`axiosServiceErrorHandler > should throw HttpException for other status 1`] = `[Function]`;

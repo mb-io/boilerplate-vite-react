@@ -1,0 +1,236 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar Component > renders correctly 1`] = `
+<div>
+  <nav
+    class="flex z-40 w-full h-auto items-center justify-center data-[menu-open=true]:border-none sticky top-0 inset-x-0 backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl backdrop-saturate-150 bg-background/70"
+    style="--navbar-height: 5rem;"
+  >
+    <header
+      class="z-40 flex px-6 gap-4 w-full flex-row relative flex-nowrap items-center justify-between h-[var(--navbar-height)] max-w-[1280px]"
+    >
+      <div
+        class="flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border max-w-fit gap-3"
+      >
+        <a
+          aria-label="Home"
+          class="relative tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity flex items-center justify-start gap-1"
+          href="/"
+          role="link"
+          tabindex="0"
+        >
+          <picture>
+            <source
+              srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Dark-200px.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Dark-200px.png"
+              type="image/png"
+            />
+            <img
+              alt="MeteorByte Logo"
+              height="52px"
+              src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Dark-200px.png"
+              width="200px"
+            />
+          </picture>
+        </a>
+      </div>
+      <ul
+        class="flex-row flex-nowrap data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 ml-2 hidden h-full basis-1/5 items-center justify-start gap-4 pt-7 sm:basis-full lg:flex"
+        data-justify="start"
+      >
+        <li
+          class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold"
+        >
+          <a
+            aria-label="Home"
+            class="tap-highlight-transparent relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity text-lg data-[active=true]:font-medium data-[active=true]:text-primary"
+            href="/"
+            role="link"
+            tabindex="0"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold"
+        >
+          <a
+            aria-label="About"
+            class="tap-highlight-transparent relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity text-lg data-[active=true]:font-medium data-[active=true]:text-primary"
+            href="/about"
+            role="link"
+            tabindex="0"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold"
+        >
+          <a
+            aria-label="Contact"
+            class="tap-highlight-transparent relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity text-lg data-[active=true]:font-medium data-[active=true]:text-primary"
+            href="/contact"
+            role="link"
+            tabindex="0"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul
+        class="gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 hidden basis-1/5 sm:flex sm:basis-full"
+        data-justify="end"
+      >
+        <li
+          class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold hidden gap-2 sm:flex"
+        >
+          <a
+            class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
+            href="https://github.com/mb-io/boilerplate-vite-react"
+            rel="noopener noreferrer"
+            role="link"
+            tabindex="0"
+            target="_blank"
+            title="GitHub"
+          >
+            <svg
+              class="text-default-500"
+              fill="currentColor"
+              height="1em"
+              role="img"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              />
+            </svg>
+          </a>
+          <label
+            aria-label="Switch to light mode"
+            class="group relative max-w-fit inline-flex items-center justify-start touch-none tap-highlight-transparent select-none cursor-pointer px-px transition-opacity hover:opacity-80"
+          >
+            <div
+              style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+            >
+              <input
+                aria-labelledby=":r0:"
+                class="font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default"
+                role="switch"
+                type="checkbox"
+                value=""
+              />
+            </div>
+            <div
+              aria-hidden="true"
+              class="relative flex-shrink-0 overflow-hidden outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:text-primary-foreground transition-background size-auto bg-transparent rounded-lg flex items-center justify-center group-data-[selected=true]:bg-transparent !text-default-500 pt-px px-0 mx-0"
+            >
+              <svg
+                fill="currentColor"
+                height="22"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M277.3 32h-42.7v64h42.7V32zm129.1 43.7L368 114.1l29.9 29.9 38.4-38.4-29.9-29.9zm-300.8 0l-29.9 29.9 38.4 38.4 29.9-29.9-38.4-38.4zM256 128c-70.4 0-128 57.6-128 128s57.6 128 128 128 128-57.6 128-128-57.6-128-128-128zm224 106.7h-64v42.7h64v-42.7zm-384 0H32v42.7h64v-42.7zM397.9 368L368 397.9l38.4 38.4 29.9-29.9-38.4-38.4zm-283.8 0l-38.4 38.4 29.9 29.9 38.4-38.4-29.9-29.9zm163.2 48h-42.7v64h42.7v-64z"
+                />
+              </svg>
+            </div>
+          </label>
+        </li>
+        <li
+          class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold hidden lg:flex"
+        />
+      </ul>
+      <ul
+        class="flex gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 basis-1 pl-4 sm:hidden"
+        data-justify="end"
+      >
+        <a
+          class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
+          href="https://github.com/mb-io/boilerplate-vite-react"
+          rel="noopener noreferrer"
+          role="link"
+          tabindex="0"
+          target="_blank"
+        >
+          <svg
+            class="text-default-500"
+            fill="currentColor"
+            height="1em"
+            role="img"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+            />
+          </svg>
+        </a>
+        <label
+          aria-label="Switch to light mode"
+          class="group relative max-w-fit inline-flex items-center justify-start touch-none tap-highlight-transparent select-none cursor-pointer px-px transition-opacity hover:opacity-80"
+        >
+          <div
+            style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+          >
+            <input
+              aria-labelledby=":r1:"
+              class="font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default"
+              role="switch"
+              type="checkbox"
+              value=""
+            />
+          </div>
+          <div
+            aria-hidden="true"
+            class="relative flex-shrink-0 overflow-hidden outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:text-primary-foreground transition-background size-auto bg-transparent rounded-lg flex items-center justify-center group-data-[selected=true]:bg-transparent !text-default-500 pt-px px-0 mx-0"
+          >
+            <svg
+              fill="currentColor"
+              height="22"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="22"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M277.3 32h-42.7v64h42.7V32zm129.1 43.7L368 114.1l29.9 29.9 38.4-38.4-29.9-29.9zm-300.8 0l-29.9 29.9 38.4 38.4 29.9-29.9-38.4-38.4zM256 128c-70.4 0-128 57.6-128 128s57.6 128 128 128 128-57.6 128-128-57.6-128-128-128zm224 106.7h-64v42.7h64v-42.7zm-384 0H32v42.7h64v-42.7zM397.9 368L368 397.9l38.4 38.4 29.9-29.9-38.4-38.4zm-283.8 0l-38.4 38.4 29.9 29.9 38.4-38.4-29.9-29.9zm163.2 48h-42.7v64h42.7v-64z"
+              />
+            </svg>
+          </div>
+        </label>
+        <button
+          aria-label="Open menu"
+          aria-pressed="false"
+          class="group flex items-center justify-center w-6 h-full rounded-small tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2"
+          type="button"
+        >
+          <span
+            class="sr-only"
+          >
+            open navigation menu
+          </span>
+          <span
+            class="w-full h-full pointer-events-none flex flex-col items-center justify-center text-inherit group-data-[pressed=true]:opacity-70 transition-opacity before:content-[''] before:block before:h-px before:w-6 before:bg-current before:transition-transform before:duration-150 before:-translate-y-1 before:rotate-0 group-data-[open=true]:before:translate-y-px group-data-[open=true]:before:rotate-45 after:content-[''] after:block after:h-px after:w-6 after:bg-current after:transition-transform after:duration-150 after:translate-y-1 after:rotate-0 group-data-[open=true]:after:translate-y-0 group-data-[open=true]:after:-rotate-45"
+          />
+        </button>
+      </ul>
+    </header>
+  </nav>
+</div>
+`;

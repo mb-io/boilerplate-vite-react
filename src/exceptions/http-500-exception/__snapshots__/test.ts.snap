@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Http500Exception > should create an exception with custom message 1`] = `[Error: Custom internal server error message]`;
+
+exports[`Http500Exception > should create an exception with custom message and AxiosError 1`] = `[Error: Custom internal server error message]`;
+
+exports[`Http500Exception > should create an exception with default message 1`] = `[Error: Internal Server Error]`;

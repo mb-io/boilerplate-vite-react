@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`jsonPlaceholderService > should match the snapshot of fetched data 1`] = `
+{
+  "completed": false,
+  "id": 1,
+  "title": "Test Title",
+  "userId": 1,
+}
+`;

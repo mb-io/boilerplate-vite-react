@@ -1,0 +1,107 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo Component > renders correctly with custom className 1`] = `
+<div>
+  <picture>
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      type="image/png"
+    />
+    <img
+      alt="MeteorByte Logo"
+      class="custom-class"
+      height="52px"
+      src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      width="200px"
+    />
+  </picture>
+</div>
+`;
+
+exports[`Logo Component > renders correctly with default props 1`] = `
+<div>
+  <picture>
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      type="image/png"
+    />
+    <img
+      alt="MeteorByte Logo"
+      height="52px"
+      src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      width="200px"
+    />
+  </picture>
+</div>
+`;
+
+exports[`Logo Component > renders correctly with size "lg" 1`] = `
+<div>
+  <picture>
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-400px.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-400px.png"
+      type="image/png"
+    />
+    <img
+      alt="MeteorByte Logo"
+      height="104px"
+      src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-400px.png"
+      width="400px"
+    />
+  </picture>
+</div>
+`;
+
+exports[`Logo Component > renders correctly with size "md" 1`] = `
+<div>
+  <picture>
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-300px.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-300px.png"
+      type="image/png"
+    />
+    <img
+      alt="MeteorByte Logo"
+      height="78px"
+      src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-300px.png"
+      width="300px"
+    />
+  </picture>
+</div>
+`;
+
+exports[`Logo Component > renders correctly with size "sm" 1`] = `
+<div>
+  <picture>
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      type="image/png"
+    />
+    <img
+      alt="MeteorByte Logo"
+      height="52px"
+      src="https://meteorbytemediablob.blob.core.windows.net/public-media/MeteorByte-Logo-Light-200px.png"
+      width="200px"
+    />
+  </picture>
+</div>
+`;

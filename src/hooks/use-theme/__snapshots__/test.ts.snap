@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`useTheme > should initialize with default dark theme 1`] = `
+{
+  "current": {
+    "isDark": true,
+    "isLight": false,
+    "setDarkTheme": [Function],
+    "setLightTheme": [Function],
+    "theme": "dark",
+    "toggleTheme": [Function],
+  },
+}
+`;
+
+exports[`useTheme > should set dark theme 1`] = `
+{
+  "current": {
+    "isDark": true,
+    "isLight": false,
+    "setDarkTheme": [Function],
+    "setLightTheme": [Function],
+    "theme": "dark",
+    "toggleTheme": [Function],
+  },
+}
+`;
+
+exports[`useTheme > should set light theme 1`] = `
+{
+  "current": {
+    "isDark": false,
+    "isLight": true,
+    "setDarkTheme": [Function],
+    "setLightTheme": [Function],
+    "theme": "light",
+    "toggleTheme": [Function],
+  },
+}
+`;
+
+exports[`useTheme > should toggle theme 1`] = `
+{
+  "current": {
+    "isDark": false,
+    "isLight": true,
+    "setDarkTheme": [Function],
+    "setLightTheme": [Function],
+    "theme": "light",
+    "toggleTheme": [Function],
+  },
+}
+`;

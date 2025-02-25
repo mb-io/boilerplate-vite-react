@@ -1,0 +1,70 @@
+{
+  "name": "boilerplate-vite-react",
+  "description": "This is a boilerplate build with Vite, React, TypeScript, HeroUI, Zustand, React Router, React Query, Vitest, Testing Library, TailwindCSS, Eslint and Prettier.",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "MeteorByte LLC",
+    "email": "info@meteorbyte.io",
+    "url": "https://github.com/mb-io"
+  },
+  "bugs": {
+    "url": "https://github.com/mb-io/boilerplate-vite-react/issues",
+    "email": "info@meteorbyte.io"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint --config eslint.config.mjs ./src/**/**/*.{ts,tsx} --fix",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "husky:prepare": "node ./.node_scripts/delete-husky.mjs && husky"
+  },
+  "dependencies": {
+    "@react-aria/visually-hidden": "^3.8.19",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.0.0",
+    "@heroui/react": "^2.7.2",
+    "@react-types/shared": "^3.27.0",
+    "@tanstack/react-query": "^5.66.9",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "@vitest/ui": "^3.0.7",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "framer-motion": "^12.4.7",
+    "happy-dom": "^17.1.8",
+    "husky": "^9.1.7",
+    "postcss": "^8.5.3",
+    "prettier": "3.5.2",
+    "react-icons": "^5.5.0",
+    "tailwind-variants": "^0.3.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.7",
+    "zustand": "^5.0.3"
+  }
+}

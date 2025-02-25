@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`useThemeStore > should have a default theme of "dark" 1`] = `
+{
+  "theme": "dark",
+}
+`;
+
+exports[`useThemeStore > should update the theme 1`] = `
+{
+  "theme": "light",
+}
+`;

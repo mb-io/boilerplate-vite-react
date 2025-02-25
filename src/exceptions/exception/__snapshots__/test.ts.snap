@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Exception > should create an exception with a custom message 1`] = `[UnknownException: Custom error message]`;
+
+exports[`Exception > should create an exception with a default name and message 1`] = `[UnknownException]`;

@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Http404Exception > should create an exception with custom message 1`] = `[Error: Custom not found message]`;
+
+exports[`Http404Exception > should create an exception with custom message and AxiosError 1`] = `[Error: Custom not found message]`;
+
+exports[`Http404Exception > should create an exception with default message 1`] = `[Error: Not Found]`;

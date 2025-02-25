@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ThemeSwitch Component > renders correctly 1`] = `
+<div>
+  <label
+    aria-label="Switch to dark mode"
+    class="group relative max-w-fit inline-flex items-center justify-start touch-none tap-highlight-transparent select-none cursor-pointer px-px transition-opacity hover:opacity-80"
+    data-selected="true"
+  >
+    <div
+      style="border: 0px; clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+    >
+      <input
+        aria-labelledby=":r0:"
+        checked=""
+        class="font-inherit text-[100%] leading-[1.15] m-0 p-0 overflow-visible box-border absolute top-0 w-full h-full opacity-[0.0001] z-[1] cursor-pointer disabled:cursor-default"
+        role="switch"
+        type="checkbox"
+        value=""
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      class="relative flex-shrink-0 overflow-hidden outline-none group-data-[focus-visible=true]:z-10 group-data-[focus-visible=true]:ring-2 group-data-[focus-visible=true]:ring-focus group-data-[focus-visible=true]:ring-offset-2 group-data-[focus-visible=true]:ring-offset-background group-data-[selected=true]:text-primary-foreground transition-background size-auto bg-transparent rounded-lg flex items-center justify-center group-data-[selected=true]:bg-transparent !text-default-500 pt-px px-0 mx-0"
+    >
+      <svg
+        fill="currentColor"
+        height="22"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 512 512"
+        width="22"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M195 125c0-26.3 5.3-51.3 14.9-74.1C118.7 73 51 155.1 51 253c0 114.8 93.2 208 208 208 97.9 0 180-67.7 202.1-158.9-22.8 9.6-47.9 14.9-74.1 14.9-106 0-192-86-192-192z"
+        />
+      </svg>
+    </div>
+  </label>
+</div>
+`;
